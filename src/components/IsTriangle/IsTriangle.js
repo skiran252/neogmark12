@@ -20,7 +20,7 @@ export default function AreaOfTriangle() {
   return (
     <div className="d-flex justify-content-center">
       <div className="row">
-        <h1>Calculate Area of a Triangle</h1>
+        <h1>Check if is a triangle</h1>
         <div className="mx-auto col-md-3 col-xs-6">
           <div className="form-group">
             <label>Enter value of Angle A = </label>
