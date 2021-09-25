@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import CenteredContainer from "./components/CenteredContainer";
+import Hypotenuse from "./components/Hypotenuse/Hypotenuse";
+import AreaOfTriangle from "./components/AreaOfTriangle/AreaOfTriangle";
+import IsTriangle from "./components/IsTriangle/IsTriangle";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Router>
+        <Navbar />
+        <CenteredContainer>
+          <Switch>
+            <Route path="/calculate-hypotenuse">
+              <Hypotenuse />
+            </Route>
+            <Route path="/calculate-area">
+              <AreaOfTriangle />
+            </Route>
+            <Route path="/isTriangle">
+              <IsTriangle />
+            </Route>
+          </Switch>
+        </CenteredContainer>
+      </Router>
     </div>
   );
 }
