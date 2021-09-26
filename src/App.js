@@ -5,6 +5,8 @@ import Hypotenuse from "./components/Hypotenuse/Hypotenuse";
 import AreaOfTriangle from "./components/AreaOfTriangle/AreaOfTriangle";
 import IsTriangle from "./components/IsTriangle/IsTriangle";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SocialFollow from "./components/SocialFollow";
+import Quiz from "./components/Quiz";
 function App() {
   return (
     <div className="container-fluid">
@@ -21,9 +23,13 @@ function App() {
             <Route path="/isTriangle">
               <IsTriangle />
             </Route>
+            <Route path="/">
+              <Quiz />
+            </Route>
           </Switch>
         </CenteredContainer>
       </Router>
+      <SocialFollow />
     </div>
   );
 }

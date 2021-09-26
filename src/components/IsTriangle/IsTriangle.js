@@ -63,8 +63,8 @@ export default function AreaOfTriangle() {
             Check if Triangle is Possible
           </button>
         </div>
-        <div className="mt-5 fw-bolder fs-3">
-          A Triangle is possible if sum of all angles is 180
+        <div className="mt-5 fw-bolder fs-6">
+          * A Triangle is possible if sum of all angles is 180
         </div>
         <h3 className="mt-5">{message}</h3>
       </div>

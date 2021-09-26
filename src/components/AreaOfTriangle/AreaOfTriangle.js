@@ -65,10 +65,10 @@ export default function AreaOfTriangle() {
             Calculate Area
           </button>
         </div>
-        <div className="mt-5 fw-bolder fs-3">
+        <div className="mt-5 fw-bolder fs-6">
           Area of triangle formula √(s(s-a)(s-b)(s-c))
         </div>
-        <div className="mt-5 fw-bolder fs-2">Where s = (a+b+c)/2</div>
+        <div className="mt-2 fw-bolder fs-6">Where s = (a+b+c)/2</div>
         <h3 className="mt-5">{message}</h3>
       </div>
     </div>

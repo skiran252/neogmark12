@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CenteredContainer(props) {
   return (
-    <div className="text-center pt-5">
+    <div className="pt-5 text-center">
       {props.children}
     </div>
   );

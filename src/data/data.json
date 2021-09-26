@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "question": "A triangle with one angle greater than 90 degrees.",
+      "answers": [
+        "equilateral triangle",
+        "isosceles triangle",
+        "scalene triangle",
+        "none of the above"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "A triangle with all three angles less than 90 degrees.",
+      "answers": [
+        "equilateral triangle",
+        "isosceles triangle",
+        "acute triangle",
+        "none of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "A triangle having at least two equal sides.",
+      "answers": [
+        "acute triangle",
+        "isosceles triangle",
+        "equilateral triangle",
+        "obtuse triangle"
+      ],
+      "correct":2
+    },
+    {
+      "question": "A triangle with one angle equal to 90 degrees",
+      "answers": [
+        "right triangle",
+        "acute triangle",
+        "obtuse triangle",
+        "scalene triangle"
+      ],
+      "correct":1
+    },
+    {
+      "question": "A triangle having three equal sides.",
+      "answers": [
+        "equilateral triangle",
+        "right triangle",
+        "isosceles triangle",
+        "scalene triangle"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "The sum of the measures of all three sides of a triangle.",
+      "answers": ["perimeter", "area", "none of the above"],
+      "correct": 1
+    },
+    {
+      "question": "In right triangle, the side opposite to right angle is called.",
+      "answers": [
+        "hypotenuse",
+        "altitude",
+        "adjacent side",
+        "none of the above"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "The perimeter of a equilateral triangle is 15cm. What is the length of one side?",
+      "answers": ["5cm", "10cm", "12cm", "none of the above"],
+      "correct": 1
+    },
+    {
+      "question": "A ladder 6.5 m long is placed in a slanting position against a wall. Its top reaches a point on the wall which is 6 m above the ground. The distance of the bottom of the ladder from the wall is ____.",
+      "answers": ["2.1m", "2.5m", "2.9m", "3.3m"],
+      "correct": 2
+    },
+    {
+        "question": "Corresponding sides of two similar triangles are in the ratio 2 :  3. If the area of the smaller triangle is 48 cm 2 determine the area of the larger triangle.",
+        "answers":["30 sq.cm"," 6 sq.cm","7 sq.cm","108 sq.cm"],
+        "correct": 4
+    }
+  ]
+}
