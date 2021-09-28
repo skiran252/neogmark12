@@ -24,6 +24,7 @@ export default function Quiz() {
     <div className="mx-auto">
       <div className="col-md-6 mx-auto ">
         <h1 className="text-center">Quiz</h1>
+        <form onSubmit={calculateScore}>
         {questions.map((question, index) => (
           <div className="mb-5" key={question.question}>
             <h6 className="text-left fw-bolder fs-4">{question.question}</h6>
@@ -39,7 +40,7 @@ export default function Quiz() {
                       type="radio"
                       name={question.question}
                       value={index2+1}
-                      required
+                      required={true}
                     />
                     {answer}
                   </div>
@@ -49,14 +50,13 @@ export default function Quiz() {
           </div>
         ))}
         <div className="d-flex justify-content-center">
-          <div
-            className="btn btn-primary"
-            onClick={calculateScore}
-            style={{ alignSelf: "center" }}
+          <button className="btn btn-primary" style={{ alignSelf: "center" }} type="submit"
           >
             Submit Answers
-          </div> 
+          </button> 
         </div>
+        </form>
+        
         <div className="fw-bolder fs-3 text-center">{message}</div>
 
       </div>
