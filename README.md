@@ -1,4 +1,4 @@
-# Stock Return Calculator
+# Fun with Triangles
 use this app to create some fun learning about triangles interactively
 ---
 ## Technologies used
