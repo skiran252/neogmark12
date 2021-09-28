@@ -39,6 +39,7 @@ export default function Quiz() {
                       type="radio"
                       name={question.question}
                       value={index2+1}
+                      required
                     />
                     {answer}
                   </div>

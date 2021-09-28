@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./IsTriangle.css";
-export default function AreaOfTriangle() {
+export default function IsTriangle() {
   let [a, setA] = useState();
   let [b, setB] = useState();
   let [c, setC] = useState();
@@ -11,7 +11,7 @@ export default function AreaOfTriangle() {
     b = parseInt(b);
     c = parseInt(c);
     if (a + b + c === 180) {
-      setMessage("Area of Triangle is " + AreaOfTriangle);
+      setMessage("Triangle is possible");
     } else {
       setMessage("Oh no ! Cannot form Triangle with given angles");
     }
