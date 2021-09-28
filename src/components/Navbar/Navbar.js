@@ -37,7 +37,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/isTriangle">
-                Calculate Hypotenuse
+                Is Triangle
               </Link>
             </li>
           </ul>
