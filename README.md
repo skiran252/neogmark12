@@ -14,7 +14,7 @@ use this app to create some fun learning about triangles interactively
 - [Portfolio](https://saikiran-gonugunta.netlify.app "saikiran's Portfolio")
 - <a href="mailto: skiran252@gmail.com">Mail</a>
 - [Twitter](https://twitter.com/skiran252 "saikiran's Twitter")
-- [LinkedIn](https://linkedin.com/in/saikiran-gonugunta"saikiran's LinkedIn")
+- [LinkedIn](https://linkedin.com/in/saikiran-gonugunta "saikiran's LinkedIn")
 
 ---
 ### Live project link: [Click Here](https://skiran252-mark12.netlify.app "Fun with triangles")
