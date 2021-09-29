@@ -11,7 +11,8 @@ export default function Quiz() {
 
   };
 
-  const calculateScore = () => {
+  const calculateScore = (e) => {
+    e.preventDefault();
     let score = 0;
     for (let i = 0; i < questions.length; i++) {
       if (questions[i].correct===parseInt(answers[i])) {
@@ -50,8 +51,7 @@ export default function Quiz() {
           </div>
         ))}
         <div className="d-flex justify-content-center">
-          <button className="btn btn-primary" style={{ alignSelf: "center" }} type="submit"
-          >
+          <button className="btn btn-primary" style={{ alignSelf: "center" }} onSubmit={(e)=>{calculateScore(e)}}>
             Submit Answers
           </button> 
         </div>
